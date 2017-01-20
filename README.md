@@ -35,6 +35,9 @@ _If you have any questions, comments, or anything else you wish to get ahold of 
 * **User inputs a number into the form and if that number is divisible by 3, the application outputs "ping"**
 * Input: 3
 * Output: ping
+* **Application can count up to the provided number, and out put them**
+* Input: 2
+* Output: [1, 2]
 
 ## Technologies Used
 
