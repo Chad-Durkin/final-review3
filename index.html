@@ -3,16 +3,28 @@
   <head>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <script src="js/scripts.js"></script>
     <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Friday Review 3</title>
   </head>
   <body>
     <div class="container">
       <div class="jumbotron">
-
+        <h1>Ping Pong</h1>
       </div>
-
+      <div class="input">
+        <form id="user-input">
+          <div class="form-group">
+            <label>Enter a number to begin</label>
+            <input id="user-number" class="form-control" type="number">
+          </div>
+          <button type="submit" class="btn">Begin!</button>
+        </form>
+      </div>
+      <div class="userOutput">
+        <ul id="displayOutput">
+        </ul>
+      </div>
       </div>
     </div>
   </body>

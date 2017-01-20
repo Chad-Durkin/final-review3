@@ -23,7 +23,7 @@ _If you have any questions, comments, or anything else you wish to get ahold of 
 
 ## Specifications
 
-* ** User inputs a number into the form and application outputs it back to the page**
+* **User inputs a number into the form and application outputs it back to the page**
 * Input: 5
 * Output: 5
 * **User inputs a number into the form and if that number is divisible by 15, the application outputs "ping-pong"**
