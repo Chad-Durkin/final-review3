@@ -3,6 +3,8 @@ var divideByFifteen = function(userNumber) {
   {
     return "ping-pong";
   }
+
+  return userNumber;
 };
 
 
@@ -16,5 +18,7 @@ $(function() {
 
     userOutput = divideByFifteen(userNumber);
     console.log(userOutput);
+    
+    $("#display-output").append("<li>" + userOutput + "</li>");
   })
 });
