@@ -1,7 +1,20 @@
+var divideByFifteen = function(userNumber) {
+  if((userNumber % 15) === 0)
+  {
+    return "ping-pong";
+  }
+};
+
+
+
+
 $(function() {
   $("#user-input").submit(function(event) {
     event.preventDefault();
     var userNumber = $("#user-number").val();
-    console.log(userNumber);
+    var userOutput;
+
+    userOutput = divideByFifteen(userNumber);
+    console.log(userOutput);
   })
 });
