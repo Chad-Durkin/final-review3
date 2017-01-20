@@ -8,6 +8,11 @@
 
 _The user inputs a number, and the program will output either the same number or either ping, pong, or ping-pong, depending on if that number is divisible by 3, 5, or 15_
 
+## Link to repository and gh-pages
+
+https://rafeekey.github.io/final-review3/
+https://github.com/Rafeekey/final-review3
+
 ## Setup/Installation Requirements
 
 * _Clone this repository_
