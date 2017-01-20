@@ -1,3 +1,17 @@
+body {
+  background-color: #95a5a6;
+}
+
+.jumbotron {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.inputOutputContent {
+  padding-left: 80px;
+  margin-top: 80px;
+}
+
 #input-label {
   float: left;
   margin-top: 5px;
@@ -8,4 +22,29 @@
   float: left;
   margin-left: 10px;
   margin-right:10px;
+}
+
+#display-output {
+  color: white;
+  padding: 30px;
+  margin-left: 230px;
+  position: relative;;
+}
+
+#side-bar {
+  background-color: #2c3e50;
+  padding-top: 50px;
+  padding-bottom: 180px;
+}
+
+#side-bar h2, h4, a{
+  color: white;
+}
+
+#side-bar h2 {
+  font-size: 35px;
+}
+
+#side-bar h3 {
+  color: #95a5a6;
 }

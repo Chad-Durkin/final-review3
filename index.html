@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Friday Review 3</title>
@@ -12,22 +12,33 @@
       <div class="jumbotron">
         <h1>Ping Pong</h1>
       </div>
-
-      <div class="inputSection">
-        <form id="user-input">
-          <div class="form-group">
-            <label id="input-label">Enter a number to begin</label>
-            <input id="user-number" class="form-control" type="number">
+      <div class="row">
+        <div class="col-md-4" id="side-bar">
+          <h2>About Ping Pong</h2>
+          <h3>Created By:</h3>
+          <h4>Chad Durkin</h4>
+          <h3>GitHub Username/URL:</h3>
+          <h4><a href="https://github.com/Rafeekey">Rafeekey</a></h4>
+          <h3>Level 2 Test for:</h3>
+          <h4>Javascript</h4>
+        </div>
+        <div class="col-md-8" id="application">
+          <div class="inputOutputContent">
+            <div class="inputSection">
+              <form id="user-input">
+                <div class="form-group">
+                  <label id="input-label">Enter a number to begin</label>
+                  <input id="user-number" class="form-control" type="number">
+                </div>
+                <button type="submit" class="btn">Begin!</button>
+              </form>
+            </div>
+            <div class="outputSection">
+              <ul id="display-output">
+              </ul>
+            </div>
           </div>
-          <button type="submit" class="btn">Begin!</button>
-        </form>
-      </div>
-
-      <div class="Output">
-        <ul id="display-output">
-        </ul>
-      </div>
-
-      </div>
+        </div>
+    </div>
   </body>
 </html>

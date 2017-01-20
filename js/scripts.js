@@ -32,7 +32,6 @@ var outputArray = function(newArray) {
   }
 }
 
-
 $(function() {
   $("#user-input").submit(function(event) {
     event.preventDefault();
