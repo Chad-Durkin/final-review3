@@ -38,6 +38,12 @@ _If you have any questions, comments, or anything else you wish to get ahold of 
 * **Application can count up to the provided number, and out put them**
 * Input: 2
 * Output: [1, 2]
+* **User input gets put into an array, and then the array turns the corresponding numbers for ping, pong, and ping-pong, into those**
+* Input: 5
+* Output: [1, 2, ping, 4, pong]
+* **After the application changes the right numbers in the array, it outputs it to the web page in a list form with the updated values**
+* Input: 5
+* Output: <li>1</li><li>2</li><li>ping</li><li>4</li><li>pong</li>
 
 ## Technologies Used
 
